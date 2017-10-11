@@ -1,0 +1,13 @@
+Running in Model-Checking mode with 1 worker.
+[...]
+Starting... (2017-10-11 07:45:52)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 9.1E-13
+  based on the actual fingerprints:  val = 7.9E-13
+11549 states generated, 1702 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 11.
+Finished in 01s at (2017-10-11 07:45:53)
