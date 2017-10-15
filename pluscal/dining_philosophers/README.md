@@ -1,7 +1,7 @@
 
 # Problem
 
-[Dining Philosophers Problem] (https://en.wikipedia.org/wiki/Dining_philosophers_problem)
+[Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
 
 # How to run
 

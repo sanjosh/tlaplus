@@ -1,5 +1,5 @@
 Running in Model-Checking mode with 1 worker.
-[...]
+[...snip...]
 Starting... (2017-10-11 07:45:52)
 Computing initial states...
 Finished computing initial states: 1 distinct state generated.
