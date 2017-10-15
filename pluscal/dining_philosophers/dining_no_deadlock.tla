@@ -1,13 +1,15 @@
 ------------------------------- MODULE dining_no_deadlock -------------------------------
 EXTENDS Naturals, TLC
 
+\* Pluscal options (-termination)
+
 
 (*
 --algorithm Dining {
 
   variable forks = [i \in 1..5 |-> FALSE];
 
-  process (ph \in 1..5) 
+  fair process (ph \in 1..5) 
 		variables tmp; left; right;
 	{
 
@@ -104,7 +106,8 @@ Next == (\E self \in 1..5: ph(self))
            \/ (* Disjunct to prevent deadlock on termination *)
               ((\A self \in ProcSet: pc[self] = "Done") /\ UNCHANGED vars)
 
-Spec == Init /\ [][Next]_vars
+Spec == /\ Init /\ [][Next]_vars
+        /\ \A self \in 1..5 : WF_vars(ph(self))
 
 Termination == <>(\A self \in ProcSet: pc[self] = "Done")
 
