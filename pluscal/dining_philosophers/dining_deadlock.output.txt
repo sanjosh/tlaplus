@@ -1,0 +1,22 @@
+
+TLC2 Version 2.09 of 10 March 2017 (rev: 3c9e4be)
+Running in Model-Checking mode with 1 worker.
+Parsing file dining_deadlock.tla
+Parsing file /tmp/Naturals.tla
+Parsing file /tmp/TLC.tla
+Parsing file /tmp/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module dining_deadlock
+Starting... (2017-10-15 06:18:09)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Error: Deadlock reached.
+Error: The behavior up to this point is:
+[...]
+
+6677 states generated, 2071 distinct states found, 482 states left on queue.
+The depth of the complete state graph search is 12.
+Finished in 00s at (2017-10-15 06:18:09)
+

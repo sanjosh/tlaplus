@@ -1,0 +1,23 @@
+
+TLC2 Version 2.09 of 10 March 2017 (rev: 3c9e4be)
+Running in Model-Checking mode with 1 worker.
+Parsing file dining_no_deadlock.tla
+Parsing file /tmp/Naturals.tla
+Parsing file /tmp/TLC.tla
+Parsing file /tmp/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module dining_no_deadlock
+Starting... (2017-10-15 06:22:42)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 4.3E-12
+  based on the actual fingerprints:  val = 2.5E-12
+19794 states generated, 5619 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 27.
+Finished in 01s at (2017-10-15 06:22:43)
+
