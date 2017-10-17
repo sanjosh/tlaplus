@@ -1,0 +1,39 @@
+
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a tlc2.tool.EvalException
+: Attempted to apply the operator overridden by the Java method
+public static tlc2.value.Value tlc2.module.TLC.Assert(tlc2.value.Value,tlc2.value.Value),
+but it produced the following error:
+The first argument of Assert evaluated to FALSE; the second argument was:
+"Failure of assertion at line 25, column 33."
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ num_adults = 0
+/\ num_children = 0
+/\ pc = <<"a0", "a0", "p0", "p0", "p0", "p0", "p0", "p0", "p0", "p0">>
+
+State 2: <Action line 54, col 13 to line 57, col 37 of module child2>
+/\ num_adults = 1
+/\ num_children = 0
+/\ pc = <<"a1", "a0", "p0", "p0", "p0", "p0", "p0", "p0", "p0", "p0">>
+
+State 3: <Action line 69, col 13 to line 75, col 35 of module child2>
+/\ num_adults = 1
+/\ num_children = 1
+/\ pc = <<"a1", "a0", "p1", "p0", "p0", "p0", "p0", "p0", "p0", "p0">>
+
+Error: The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 59, column 16 to line 59, column 30 in child2
+1. Line 60, column 17 to line 60, column 70 in child2
+2. Line 60, column 38 to line 60, column 69 in child2
+3. Line 61, column 16 to line 61, column 43 in child2
+4. Line 62, column 16 to line 63, column 68 in child2
+
+
+37 states generated, 28 distinct states found, 23 states left on queue.
+The depth of the complete state graph search is 4.
+Finished in 00s at (2017-10-17 22:56:17)
+
