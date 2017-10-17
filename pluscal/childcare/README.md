@@ -9,8 +9,8 @@ At a child care center, state regulations require that there is always one adult
 
 ```
 export CLASSPATH=`location of tla2tools.jar`/*
-java pcal.trans childcare.tla
-java tlc2.TLC ./childcare.tla
+java pcal.trans ./childcare2.tla
+java tlc2.TLC ./childcare2.tla
 ```
 
 
