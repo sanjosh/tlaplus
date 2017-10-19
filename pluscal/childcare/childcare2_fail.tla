@@ -20,7 +20,7 @@ IsEnvSafe(num_children, num_adults) == (num_children = 0)
   process (a \in 1..ADULTS) {
     	 a0: num_adults := num_adults + 1;
 			 a1 : { 
-				await (num_children = 0 \/ ((num_adults) * 3 >= num_children));
+				await ((num_adults) * 3 >= num_children);
 				num_adults := num_adults - 1;
 			 	assert IsEnvSafe(num_children, num_adults);
 				 };
