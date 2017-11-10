@@ -12,6 +12,10 @@ Given at [Expert-talks 2017](https://expert-talks.in/)
 3. https://github.com/muratdem/PlusCal-examples
 4. https://github.com/duerrfk/skp
 
+# Discussion forum
+
+1. [Google group](https://groups.google.com/forum/#!forum/tlaplus)
+
 # References
 
 1. [Marc Brooker, Exploring TLA+ with two-phase commit](http://brooker.co.za/blog/2013/01/20/two-phase.html)
