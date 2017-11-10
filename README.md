@@ -6,7 +6,7 @@ Repository for TLA+ and PlusCal programs.
 Given at [Expert-talks 2017](https://expert-talks.in/)
 
 
-# Code samples
+# Other Code samples on github
 1. https://github.com/quux00/PlusCal-Examples
 2. https://github.com/belaban/pluscal
 3. https://github.com/muratdem/PlusCal-examples
