@@ -5,6 +5,8 @@ Repository for TLA+ and PlusCal programs.
 
 Given at [Expert-talks 2017](https://expert-talks.in/)
 
+Slides at [slideshare](https://www.slideshare.net/SandeepJoshi55/doveryai-no-proveryai-introduction-to-tla)
+
 
 # Other Code samples on github
 1. https://github.com/quux00/PlusCal-Examples
